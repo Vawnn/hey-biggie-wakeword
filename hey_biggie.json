@@ -3,13 +3,13 @@
   "wake_word": "Hey Biggie",
   "author": "steve",
   "website": "",
-  "model": "hey_biggie.tflite",
+  "model": "https://github.com/Vawnn/hey-biggie-wakeword/raw/main/hey_biggie.tflite",
   "trained_languages": [
     "en"
   ],
   "version": 2,
   "micro": {
-    "probability_cutoff": 0.85,
+    "probability_cutoff": 0.5,
     "feature_step_size": 10,
     "sliding_window_size": 5,
     "tensor_arena_size": 50000,
